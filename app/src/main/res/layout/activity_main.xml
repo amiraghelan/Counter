@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textViewCounter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="120dp"
+        android:text="0"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="68sp" />
+
+    <Button
+        android:id="@+id/buttonIncrement"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:background="@drawable/btn_increment"
+        android:gravity="center"
+        android:text="+1"
+        android:textColor="#fff"
+        android:textSize="36sp" />
+
+    <ImageButton
+        android:id="@+id/imageButtonReset"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btn_reset"
+        android:padding="10dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/reset"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+
+</LinearLayout>
