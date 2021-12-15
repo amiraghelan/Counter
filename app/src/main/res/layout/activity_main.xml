@@ -9,7 +9,7 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/textViewCounter"
+        android:id="@+id/txt_count"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="120dp"
@@ -19,7 +19,7 @@
         android:textSize="68sp" />
 
     <Button
-        android:id="@+id/buttonIncrement"
+        android:id="@+id/btn_increment"
         android:layout_width="160dp"
         android:layout_height="160dp"
         android:background="@drawable/btn_increment"
@@ -29,7 +29,7 @@
         android:textSize="36sp" />
 
     <ImageButton
-        android:id="@+id/imageButtonReset"
+        android:id="@+id/ibtn_reset"
         android:layout_width="55dp"
         android:layout_height="55dp"
         android:layout_marginTop="10dp"
@@ -38,6 +38,15 @@
         android:scaleType="fitXY"
         android:src="@drawable/reset"
         tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/txt_highestCount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Highest Count : "
+        android:textAlignment="center"
+        android:textSize="20sp" />
 
 
 </LinearLayout>
